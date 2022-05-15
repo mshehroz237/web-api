@@ -100,7 +100,7 @@ var countDown = function () {
     //storing html into timeEl
      timeEl.innerHTML = `Timer: ${timer} seconds` 
      // checking to see if timer less than 0 or highscore greater than 25
-if (timer <= 0 || highScore>= 25 || questions.length[index]){
+if (timer <= 0 || highScore >= 25 || questions.length[index] > 5 || [index]>=5){
    //calling game over if any of the conditions above is true
     gameOver();
 } else{ 
