@@ -1,5 +1,10 @@
 # web-api
-
+This project has a start quiz button when clicked it displays the questions and their choices.
+When the start quiz button is clicked a countdown starts, every wrong question answered timme is substracted from the timer.
+First created a div and made a button elemnt inside it and stored all the questions al answers in it.
+First created an array of objects that will have the questions and their choices.
+Then created a foor loop that will display the question answers until the foor loop condition is met.
+At the end stored the highscores into local storage or then retrieved it and displayed the final scores with users name.
 
 
 Below are images linked of the program
