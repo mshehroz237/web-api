@@ -6,30 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
 </head>
 
 <body>
+    <!-- making a container and storing divs in it -->
     <div class="container">
-       <!-- <h5 class="timer">Total Time: <span id = "timer" ></span> </h5> -->
-
+        <!-- creating a start page container which will hold start page and intro text and button in it -->
         <div class="start-page-container">
             <div class="start-page">
                 <div class="intro-text">
-                    <span class = "text-nowrap" style="width: 8rem;">Click the button below to start the Quiz!</span>
+                    <!-- adding intro text above the button -->
+                    <span class="text-nowrap" style="width: 8rem;">Click the button below to start the Quiz!</span>
                 </div>
+                <!-- creating a start Quiz button and applying some bootstrap styling to it -->
                 <button class="btn col-md-12 text-center btn btn-primary" id="start">
                     <h5>Click to start</h5>
                 </button>
             </div>
         </div>
+        <!-- making a question-Container to store all the questions and choices  -->
         <div id="question-Container">
         </div>
-        
-    
-    <div id = "time"></div>
-    <script src="./assets/js/script.js"></script>
+
+        <!-- creating a time div to display the countdown -->
+        <div id="time"></div>
+        <!-- linking javascript file -->
+        <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
